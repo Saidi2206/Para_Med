@@ -1,0 +1,29 @@
+<div class="container-scroller">
+    <!-- Barre de navigation (navbar) -->
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row custom-navbar">
+      <!-- ... Votre contenu de la barre de navigation ... -->
+    </nav>
+  
+    <div class="container-fluid page-body-wrapper">
+      <!-- Sidebar -->
+      <nav class="sidebar sidebar-offcanvas custom-sidebar" id="sidebar" >
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link custom-nav-link" routerLink="/liste_information">
+              <i class="fas fa-home"></i>
+              <span class="menu-title custom-menu-title "style="margin-left: 15px;">home</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link custom-nav-link" routerLink="/medecin">
+              <i class="fas fa-user-md"></i>
+              <span class="menu-title custom-menu-title" style="margin-left: 15px;">Medecin</span>
+          </a>          
+          </li>
+        </ul>
+      </nav>
+  
+      <!-- Contenu de la page -->
+      <router-outlet></router-outlet>
+    </div>
+  </div>

@@ -1,0 +1,25 @@
+<div class="container">
+    <h2>Modifer</h2>
+    <form>
+      <div class="form-group">
+        <label for="nom">Nom :</label>
+        <input type="text" [(ngModel)]="nom" placeholder="Entrez votre nom" required>
+      </div>
+      <div class="form-group">
+        <label for="prenom">Prénom :</label>
+        <input type="text" [(ngModel)]="pre" placeholder="Entrez votre prénom" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Quantité :</label>
+        <input type="email" [(ngModel)]="quantite" placeholder="Entrez votre email" required>
+      </div>
+      <div class="form-group">
+        <label for="motDePasse">prix :</label>
+        <input type="password" [(ngModel)]="prix" placeholder="Entrez votre mot de passe" required>
+      </div>
+      <div class="buttons">
+        <button type="submit" (click)="save()" class="btn">Submit</button>
+        <button routerLink="/liste_information" type="button" class="btn btn-cancel">Cancel</button>
+      </div>
+    </form>
+  </div>
