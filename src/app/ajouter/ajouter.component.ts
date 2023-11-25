@@ -7,24 +7,38 @@ import { Component } from '@angular/core';
 })
 export class AjouterComponent {  
    
-  produit={
-    nom : 'iheb' ,
-    pre: 'saidi',
-    prix : 24,  
-    quantite : 100
-  }
+ 
+  nom: string = '';
+  prenom: string = '';
+  dateNaissance: Date = new Date();
+  adresse: string = '';
+  tel1: string = '';
+  tel2: string = '';
+  numSecuriteSociale: string = '';
+  caisse: string = '';
+  taille: string = '';
+  poids: string = '';
+  profession: string = '';
+  medecinNom: string = '';
+  specialite: string = '';
+  adresseMedecin: string = '';
+  telephoneMedecin: string = '';
+  dateEnregistrement: Date = new Date();
+  iah: string = '';
+  datesObservances7Jours: string = '';
+  datesObservances1Mois: string = '';
+  datesObservances2Mois: string = '';
+  datesObservances3Mois: string = '';
+  accordCNAM: string = '';
+  numBL: string = '';
+  dateBL: Date = new Date();
+  numFacture: string = '';
+  dateFacture: Date = new Date();
+  dateInstallationCPAP: Date = new Date(); 
 
-  nom='' ;
-  pre='';
-  prix='';  
-  quantite=''; 
-  save(){ 
-    this.nom = this.nom;
-    this.pre=this.pre;
-    this.prix=this.prix;
-    this.quantite=this.quantite;
 
-  }
-
-
+    
 }
+
+
+

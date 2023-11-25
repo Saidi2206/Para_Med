@@ -1,18 +1,18 @@
 .custom-navbar {
-    background-color: #001f3f; /* Bleu marine sombre */
-    color: #fff; /* Texte en blanc */
+    background-color: #001f3f; 
+    color: #fff; 
   }
   
   .custom-nav-link {
-    color: #fff; /* Texte en blanc */
+    color: #fff; 
   }
   
   .custom-navbar-toggler, .custom-navbar-toggler-right {
-    color: #fff; /* Icônes en blanc */
+    color: #fff; 
   }
   
   .custom-page-body-wrapper {
-    background-color: #001f3f; /* Fond bleu marine sombre */
-    color: #fff; /* Texte en blanc */
+    background-color: #001f3f; 
+    color: #fff; 
   }
   

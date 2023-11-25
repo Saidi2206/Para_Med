@@ -2,17 +2,16 @@
     <div class="card custom-card">
         <div class="card-body">
             <h4 class="card-title custom-card-title">Liste des medecins</h4>
-            <p class="card-description custom-card-description">Description</p>
-            <!-- Add the "Ajouter" button here -->
-            <button routerLink="/ajouter" class="btn btn-primary">Ajouter</button>
+            <button routerLink="/Ajoutermed" class="btn btn-primary">Ajouter</button>
             <div class="table-responsive custom-table pt-3">
                 <table class="table custom-table-bordered table-striped mt-3">
                     <thead>
                         <tr>
                             <th class="custom-table-header">#</th>
                             <th class="custom-table-header">Nom</th>
-                            <th class="custom-table-header">Quantité</th>
-                            <th class="custom-table-header">Prix</th>
+                            <th class="custom-table-header">Spécialité</th>
+                            <th class="custom-table-header">Adresse</th>
+                            <th class="custom-table-header">Téléphone</th>
                             <th class="custom-table-header"></th>
                         </tr>
                     </thead>
@@ -22,21 +21,13 @@
                             <td style="text-align: center;">iheb</td>
                             <td style="text-align: center;">15</td>
                             <td style="text-align: center;">100</td>
+                            <td style="text-align: center;">100</td>
                             <td> 
-                                <i routerLink="/ajouter" class="fas fa-edit text-primary"></i>
+                                <i routerLink="/Ajoutermed" class="fas fa-edit text-primary"></i>
                                 <i class="fas fa-trash text-danger"></i>
                             </td>
                         </tr>
-                        <tr>
-                            <td style="text-align: center;">2</td>
-                            <td style="text-align: center;">ali</td>
-                            <td style="text-align: center;">10</td>
-                            <td style="text-align: center;" >200</td>
-                            <td> 
-                                <i routerLink="/ajouter" class="fas fa-edit text-primary"></i>
-                                <i class="fas fa-trash text-danger"></i>
-                            </td>
-                        </tr>
+                        
                     </tbody>
                 </table>
             </div>

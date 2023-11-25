@@ -31,7 +31,7 @@
   }
   
   .custom-action-button-container {
-    height: 100px; /* Définissez la hauteur souhaitée de la colonne */
+    height: 100px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,11 +43,11 @@
 } 
 
 .custom-action-button {
-  background-color: blue; /* Définir la couleur bleue que vous souhaitez */
-  color: white; /* Changer la couleur du texte en blanc pour une meilleure lisibilité */
-  border: none; /* Supprimer les bordures, si nécessaire */
-  padding: 5px 10px; /* Ajouter un espace intérieur aux boutons */
-  margin-right: 5px; /* Ajouter un espacement entre les boutons */
+  background-color: blue; 
+  color: white; 
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px; 
 }
 
 .add-button {  

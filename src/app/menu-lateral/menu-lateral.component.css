@@ -1,28 +1,31 @@
-
 .custom-navbar {
-    background-color: navy;
-    color: #fff;
-    /* Autres styles personnalisés */
-  }
-  
-  .custom-sidebar {
-    background-color: navy;
-    color: #fff;
-    /* Autres styles personnalisés */
-  }
-  
-  .custom-nav-link {
-    color: #fff;
-    /* Autres styles personnalisés */
-  }
-  
-  .custom-menu-icon {
-    color: #fff;
-    /* Autres styles personnalisés */
-  }
-  
-  .custom-menu-title {
-    color: #fff;
-    /* Autres styles personnalisés */
-  }
-  
+  background: linear-gradient(to right, #0074bf, #003b5c); /* Dégradé bleu */
+  color: #fff;
+}
+
+.custom-sidebar {
+  background: linear-gradient(to bottom, #0074bf, #003b5c); /* Dégradé bleu */
+  color: #fff;
+}
+
+.custom-nav-link {
+  color: #fff;
+}
+.custom-nav-link,
+.custom-nav-link:hover,
+.custom-nav-link:focus,
+.custom-menu-title,
+.custom-menu-title:hover,
+.custom-menu-title:focus {
+  color: #fff !important; 
+}
+.custom-nav-link:focus .fas,
+.custom-nav-link:active .fas,
+.custom-menu-title:focus .fas,
+.custom-menu-title:active .fas {
+  color: #003b5c;   
+
+}
+
+
+
