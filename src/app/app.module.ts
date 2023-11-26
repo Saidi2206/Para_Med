@@ -12,6 +12,7 @@ import { MedecinComponent } from './medecin/medecin.component';
 import { AjouterComponent } from './ajouter/ajouter.component';
 import { AjouterMedComponent } from './ajouter-med/ajouter-med.component';
 import { DetailPatientComponent } from './detail-patient/detail-patient.component';
+import { ProfilComponent } from './profil/profil.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { DetailPatientComponent } from './detail-patient/detail-patient.componen
     MedecinComponent,
     AjouterComponent,
     AjouterMedComponent,
-    DetailPatientComponent
+    DetailPatientComponent,
+    ProfilComponent
   ],
   imports: [
     BrowserModule,

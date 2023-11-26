@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PatientService } from '../patient.service';
 
 @Component({
   selector: 'app-medecin',
@@ -6,5 +7,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./medecin.component.css']
 })
 export class MedecinComponent {
+  patientDetails: any[] | undefined;
 
+  constructor(private patientService: PatientService) {}
+
+  ngOnInit() {
+    this.getPatientsDetails();
+  }
+
+  getPatientsDetails() {
+    this.patientService.getPatientsDataObservable().subscribe((data: any[]) => {
+      this.patientDetails = data;
+    });
+  }
 }
+
